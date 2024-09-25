@@ -1,0 +1,5 @@
+n1= int(input(' me fale um valor: '))
+antecessor = n1 - 1
+sucessor = n1 + 1 
+print('O sucessor é', sucessor)
+print('O antecessor é', antecessor)

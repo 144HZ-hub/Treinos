@@ -1,0 +1,4 @@
+nb1 = float (input ("me fale um numero: "))
+nb2 = float (input ("me fale outro numero"))
+s=nb1+nb2
+print (s)

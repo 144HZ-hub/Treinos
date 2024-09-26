@@ -1,0 +1,7 @@
+Distancia = float(input('qual é a distancia da sua viagem?'))
+print ('vocÊ esta prestes a começar a viagem de{}^Km'.format(Distancia))
+if Distancia <= 200:
+  preço = Distancia * 0.50
+else: 
+  preço = Distancia * 0.49
+print ('E o preço de sua passagem sera de R${:.2f}'.format (preço))

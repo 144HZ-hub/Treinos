@@ -1,0 +1,11 @@
+1
+co = float(input('comprimento do cateto: '))
+ca =float(input('comprimento dp cateto adiacente: '))
+hi = (co ** 2 + ca ** 2) ** (1/2)
+print('q A hipotenusa vai medir {}'.format(hi))
+2
+import math
+co = float (input('comprimento do cateto oposto: '))
+ca = float (input('comprimento do cateto adiacente: '))
+hi = math.hypot(co, ca)
+print ('A hipotenusa vai medir {}'.format(hi))

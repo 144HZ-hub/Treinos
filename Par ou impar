@@ -1,0 +1,7 @@
+n = int(input(' me diga algum numero: '))
+r = n % 2
+print (' o resultado foi {}'.format(r))
+if r == 0:
+    print ('o número {} é PAR'.format (n))
+else:
+    print ('o numero {} é IMPAR'.format (n))

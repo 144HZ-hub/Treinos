@@ -1,0 +1,10 @@
+from random import randint
+c = randint (0,5) #faz o "computador" pensar
+print ('-=-' * 10)
+print ('Vou pensar em um numero entre 0 e 5. Adivinhe!')
+print ('-=-' * 10)
+j = int(input('em que numero eu pensei? ')) #tenta adivinhar
+if j == c:
+    print (' parabens você acertou ')
+else:
+    print (' ganhei um pensei no numero {} não nesse {}'.format (c, j))

@@ -1,0 +1,7 @@
+1
+num = float(input ("digite um numero"))
+print ('O valor digitado foi {} e sua porção inteira é {}'.format(num, int(num)))
+2
+import math
+num = float (input ("seu numero: "))
+print ('Seu numero digitado é {} seu numero por inteiro {}'.format(num, math.trunc(num))) 

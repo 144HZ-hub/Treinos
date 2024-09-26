@@ -1,0 +1,3 @@
+r = float(input ('quanto dinheiro você tem na carteira? : R$ '))
+d = r / 5.48
+print('com R${} você pode comprar US${}'.format(r, d))

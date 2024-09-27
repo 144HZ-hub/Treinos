@@ -1,0 +1,18 @@
+a = int(input ('Qual o numero: '))
+b = int(input ('me fale o segundo numero: '))
+c = int(input ('me fale o terceiro numero: '))
+menor = a
+if b < a and b < c:
+ menor = b
+if c < a and c < b:
+ menor = c
+
+maior = a
+if b > a and b > c:
+ maior = b
+if c > a and c > b:
+ maior = c
+print ( 'o menor menor digitado foi {}'.format (menor) )
+print (' o maior valor digitado foi {}'.format (maior ))
+
+  
